@@ -1,0 +1,5 @@
+// для теста ParameterizedTest
+amount, expected, massage
+1000, 0, shouldReturnZeroIfAmountIs1000
+100, 900, shouldReturn900IfAmountLowerThan1000
+1500, 500, shouldReturn500IfAmountIs1500
